@@ -116,4 +116,5 @@ void* list_get_head(struct list* list) {
   if (temp){
     return temp->val;
   }
+  return NULL;
 }
